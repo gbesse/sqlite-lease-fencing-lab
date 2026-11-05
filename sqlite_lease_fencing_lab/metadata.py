@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Reproduire un ancien détenteur de bail avec jetons de clôture', 'en': 'Reproduce a stale lease holder with fencing tokens', 'es': 'Reproducir un titular de arrendamiento obsoleto con tokens de exclusión'}

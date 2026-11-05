@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-lease-fencing-lab"
+version = "0.1.0a1"
+description = "FR: Reproduire un ancien détenteur de bail avec jetons de clôture | EN: Reproduce a stale lease holder with fencing tokens | ES: Reproducir un titular de arrendamiento obsoleto con tokens de exclusión"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-lease-fencing-lab = "sqlite_lease_fencing_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_lease_fencing_lab*"]
